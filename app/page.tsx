@@ -76,7 +76,7 @@ export default function Home() {
       <section className="mx-auto max-w-6xl px-6 py-16 md:py-20">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Shop by Category</h2>
-          <p className="text-gray-600 text-lg">Find exactly what you're looking for</p>
+          <p className="text-gray-600 text-lg">{`Find exactly what you're looking for`}</p>
         </div>
         
         <div className="flex flex-wrap items-center justify-center gap-12">

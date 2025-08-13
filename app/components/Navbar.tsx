@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 import { Search } from "./Search";
 import { Actions } from "./Actions";
@@ -24,7 +25,7 @@ export default function Navbar() {
           {/* Center: Brand/Tagline - always centered */}
           <nav className="col-start-2 flex flex-col items-center text-center select-none justify-self-center">
             <Link href="/" className="text-xl flex flex-row hover:opacity-90">
-              <img src="/logo.png" alt="GoodBuy Logo" className="h-6" />
+              <Image src="/logo.png" alt="GoodBuy Logo" className="h-[25px]" width={24} height={25} />
               <span>Good</span>
               <span className="text-[#D70A61]">B</span>
               <span className="text-[#F5671F]">u</span>
@@ -45,7 +46,10 @@ export default function Navbar() {
           <div className="flex h-14 items-center justify-between">
             {/* Mobile Brand */}
             <Link href="/" className="text-lg flex flex-row hover:opacity-90">
-              <img src="/logo.png" alt="GoodBuy Logo" className="h-5" />
+              <Image src="/logo.png" alt="GoodBuy Logo" className="h-[25px]"
+                width={24}
+                height={28}
+              />
               <span>Good</span>
               <span className="text-[#D70A61]">B</span>
               <span className="text-[#F5671F]">u</span>
