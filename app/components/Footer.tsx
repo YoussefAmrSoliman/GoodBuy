@@ -8,7 +8,7 @@ const Footer = () => (
         <div className="flex justify-center space-x-4">
           <Link href="#" className="text-gray-400 hover:text-white">
             <Image
-              src="/facebook-logo.png"
+              src="/facebook-logo.svg"
               alt="Facebook"
               width={48}
               height={48}
@@ -17,7 +17,7 @@ const Footer = () => (
           
           <Link href="#" className="text-gray-400 hover:text-white">
             <Image
-              src="/instagram-logo.png"
+              src="/instagram-logo.svg"
               alt="Instagram"
               width={48}
               height={48}
